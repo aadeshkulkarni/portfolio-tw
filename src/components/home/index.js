@@ -28,30 +28,30 @@ const Home = () => {
 
       <div className="grid w-4/6 grid-cols-2 gap-1">
         <div className="p-5 bg-gray-200 rounded-tl-lg bg-opacity-30 backdrop-filter backdrop-blur">
-          <a href="https://twitter.com/aadeshcodes">
+          <a href="https://www.youtube.com/channel/UCpGCBcigYMaiPeDMmhHkMMw">
             <div className="flex items-center justify-center">
-              <Icon label={twitter} />
+              <Icon label={twitter} noMode={true}/>
             </div>
           </a>
         </div>
         <div className="p-5 bg-gray-200 rounded-tr-lg bg-opacity-30 backdrop-filter backdrop-blur">
           <a href="https://www.instagram.com/aadeshkulkarni/">
             <div className="flex items-center justify-center">
-              <Icon label={instagram} />
+              <Icon label={instagram} noMode={true}/>
             </div>
           </a>
         </div>
         <div className="p-5 bg-gray-200 rounded-bl-lg bg-opacity-30 backdrop-filter backdrop-blur">
           <a href="https://github.com/aadeshkulkarni">
             <div className="flex items-center justify-center">
-              <Icon label={github} />
+              <Icon label={github} noMode={true}/>
             </div>
           </a>
         </div>
         <div className="p-5 bg-gray-200 rounded-br-lg bg-opacity-30 backdrop-filter backdrop-blur">
           <a href="https://www.linkedin.com/in/aadeshkulkarni/">
             <div className="flex items-center justify-center">
-              <Icon label={linkedIn} />
+              <Icon label={linkedIn} noMode={true}/>
             </div>
           </a>
         </div>

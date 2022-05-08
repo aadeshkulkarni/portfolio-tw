@@ -1,17 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html,
-body,
-#root {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  @apply font-roboto-slab;
-}
-
-.is-active > div {
-  @apply bg-gray-800;
-}
